@@ -1,0 +1,54 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (494.60.2)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Cube "Cube" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+
+        def RealityKitComponent "CustomDockingRegion" (
+            customData = {
+                asset previewVideo = @../../../../../../../../../../Users/elkraneo/Library/Mobile Documents/com~apple~CloudDocs/Developer/Reality check/Escape Space/material/The_Green_Spurt_x_Auggies.mp4@
+            }
+        )
+        {
+            uniform token info:id = "RealityKit.CustomDockingRegion"
+
+            def RealityKitStruct "m_bounds"
+            {
+                float3 max = (1.2, 0.5, 0)
+                float3 min = (-1.2, -0.5, -0)
+            }
+        }
+    }
+}
+

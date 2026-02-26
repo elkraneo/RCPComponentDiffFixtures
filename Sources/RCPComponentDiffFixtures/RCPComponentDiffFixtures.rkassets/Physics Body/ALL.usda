@@ -1,0 +1,74 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (494.60.2)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Cube "Cube" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+
+        def RealityKitComponent "RigidBody"
+        {
+            float angularDamping = 0.1
+            bool gravityEnabled = 0
+            uniform token info:id = "RealityKit.RigidBody"
+            bool isCCDEnabled = 1
+            float linearDamping = 0.04
+            bool lockRotationX = 1
+            bool lockRotationY = 1
+            bool lockRotationZ = 1
+            bool lockTranslationX = 1
+            bool lockTranslationY = 1
+            bool lockTranslationZ = 1
+            token motionType = "Kinematic"
+
+            def RealityKitStruct "massFrame"
+            {
+                float3 m_inertia = (0.2, 0.2, 0.2)
+                float m_mass = 2
+
+                def RealityKitStruct "m_pose"
+                {
+                    quatf orientation = (0.9999238, 0.008726202, 0.008726204, -0.000076152406)
+                    float3 position = (0.01, 0.01, 0.01)
+                }
+            }
+
+            def RealityKitStruct "material"
+            {
+                double dynamicFriction = 1
+                double restitution = 1
+                double staticFriction = 1
+            }
+        }
+    }
+}
+
