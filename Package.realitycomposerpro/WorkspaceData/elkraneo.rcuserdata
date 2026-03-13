@@ -1,15 +1,7 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Reverb\/BASE.usda",
-    "Reverb\/BASE copy 3.usda",
-    "Reverb\/BASE copy 4.usda",
-    "Reverb\/BASE copy 5.usda",
-    "Reverb\/BASE copy 6.usda",
-    "Reverb\/BASE copy 7.usda",
-    "Reverb\/BASE copy 8.usda",
-    "Reverb\/BASE copy 9.usda",
-    "Reverb\/BASE copy 10.usda"
+    "Grounding Shadow\/BASE.usda"
   ],
   "recentIdentifiers" : {
     "39F577D8-4846-4EEE-BBAF-7803A64ED244" : [
@@ -221,5 +213,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Reverb\/BASE copy 10.usda"
+  "selectedSceneRelativePath" : "Grounding Shadow\/Untitled Scene.usda"
 }
