@@ -39,6 +39,8 @@ def Xform "Root"
         {
             uniform token info:id = "RealityKit.Accessibility"
             bool isEnabled = 1
+            string label = "Custom Label"
+            string value = "This component makes my entity accessible "
         }
     }
 }
