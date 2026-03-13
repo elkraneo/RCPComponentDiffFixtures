@@ -1,7 +1,11 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Grounding Shadow\/BASE.usda"
+    "Grounding Shadow\/BASE.usda",
+    "Grounding Shadow\/None.usda",
+    "Grounding Shadow\/All.usda",
+    "Grounding Shadow\/BASE copy 1.usda",
+    "Grounding Shadow\/BASE copy.usda"
   ],
   "recentIdentifiers" : {
     "39F577D8-4846-4EEE-BBAF-7803A64ED244" : [
@@ -213,5 +217,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Grounding Shadow\/Untitled Scene.usda"
+  "selectedSceneRelativePath" : "Grounding Shadow\/BASE copy 1.usda"
 }
