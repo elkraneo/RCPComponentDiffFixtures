@@ -383,6 +383,18 @@
       }
     ]
   },
+  "3CA0B487-068F-4C05-9725-CBCB502BD0F2" : {
+    "objectMetadataList" : [
+      [
+        "3CA0B487-068F-4C05-9725-CBCB502BD0F2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "3D27EF1A-597B-41AB-86A9-C5546A559196" : {
     "objectMetadataList" : [
       [
@@ -423,9 +435,7 @@
     "objectMetadataList" : [
       [
         "4285F70F-1172-4A19-B231-1B5D5EB156A1",
-        "Root",
-        "ToyBiplane",
-        "geom"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -448,7 +458,8 @@
         "ToyBiplane",
         "geom",
         "realistic",
-        "geo"
+        "geo",
+        "lod0"
       ],
       {
         "isExpanded" : true,
@@ -456,7 +467,9 @@
       },
       [
         "4285F70F-1172-4A19-B231-1B5D5EB156A1",
-        "Root"
+        "Root",
+        "ToyBiplane",
+        "geom"
       ],
       {
         "isExpanded" : true,
@@ -468,8 +481,7 @@
         "ToyBiplane",
         "geom",
         "realistic",
-        "geo",
-        "lod0"
+        "geo"
       ],
       {
         "isExpanded" : true,
@@ -613,6 +625,18 @@
     "objectMetadataList" : [
       [
         "570365BD-22E4-410A-A5F0-6F690C28468D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "5928B221-1C93-438D-90AC-25F101E73673" : {
+    "objectMetadataList" : [
+      [
+        "5928B221-1C93-438D-90AC-25F101E73673",
         "Root"
       ],
       {
@@ -825,10 +849,34 @@
       }
     ]
   },
+  "7DBE0469-19FC-42BF-95DB-F1ABD99914FD" : {
+    "objectMetadataList" : [
+      [
+        "7DBE0469-19FC-42BF-95DB-F1ABD99914FD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "80E7D736-4491-4F71-B83C-69E46E2D26F4" : {
     "objectMetadataList" : [
       [
         "80E7D736-4491-4F71-B83C-69E46E2D26F4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8257C1C2-4C89-45A5-A6A4-A6A1D7F8179C" : {
+    "objectMetadataList" : [
+      [
+        "8257C1C2-4C89-45A5-A6A4-A6A1D7F8179C",
         "Root"
       ],
       {
@@ -921,6 +969,30 @@
       }
     ]
   },
+  "986B2CDC-972B-44FE-82B2-956110A8B7D1" : {
+    "objectMetadataList" : [
+      [
+        "986B2CDC-972B-44FE-82B2-956110A8B7D1",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "98C531AF-CFC7-4F5B-9EFF-E5BAD8A60236" : {
+    "objectMetadataList" : [
+      [
+        "98C531AF-CFC7-4F5B-9EFF-E5BAD8A60236",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "999CC236-6ABF-40E2-AFC1-9DE36DB95E38" : {
     "objectMetadataList" : [
       [
@@ -961,6 +1033,14 @@
     "objectMetadataList" : [
       [
         "9CCF562C-9631-48A6-91B6-034A0114B29E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9CCF562C-9631-48A6-91B6-034A0114B29E",
         "Root",
         "Cube"
       ],
@@ -970,14 +1050,6 @@
         "selectedAudioFilePrim" : {
           "string" : "\/Root\/_1bells_wav"
         }
-      },
-      [
-        "9CCF562C-9631-48A6-91B6-034A0114B29E",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
@@ -1057,6 +1129,18 @@
     "objectMetadataList" : [
       [
         "A1340BDC-60AA-489D-8018-E19685F64E68",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A28A592E-8AB8-4BEB-9109-E13375BB72D5" : {
+    "objectMetadataList" : [
+      [
+        "A28A592E-8AB8-4BEB-9109-E13375BB72D5",
         "Root"
       ],
       {
@@ -1165,7 +1249,8 @@
     "objectMetadataList" : [
       [
         "B531D0A7-3C68-4842-BF87-F67B1D3C35C6",
-        "Root"
+        "Root",
+        "Cube"
       ],
       {
         "isExpanded" : true,
@@ -1173,8 +1258,7 @@
       },
       [
         "B531D0A7-3C68-4842-BF87-F67B1D3C35C6",
-        "Root",
-        "Cube"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -1335,6 +1419,18 @@
       }
     ]
   },
+  "C7C24632-8BE4-46E6-B676-212C0CBB9D31" : {
+    "objectMetadataList" : [
+      [
+        "C7C24632-8BE4-46E6-B676-212C0CBB9D31",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "C7CE6154-597F-42F5-8197-0C8DC179B668" : {
     "objectMetadataList" : [
       [
@@ -1351,6 +1447,18 @@
     "objectMetadataList" : [
       [
         "C827CBF3-91F4-4B26-9299-BE95D0A6002F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CAA27C69-1202-4853-A6A2-D65282352EA8" : {
+    "objectMetadataList" : [
+      [
+        "CAA27C69-1202-4853-A6A2-D65282352EA8",
         "Root"
       ],
       {
@@ -1599,6 +1707,18 @@
       }
     ]
   },
+  "E4D34401-11C2-4F0E-81B3-AB2D89395F5A" : {
+    "objectMetadataList" : [
+      [
+        "E4D34401-11C2-4F0E-81B3-AB2D89395F5A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "E5403EAE-ED60-4FA0-B745-C373918995FE" : {
     "objectMetadataList" : [
       [
@@ -1719,6 +1839,18 @@
       }
     ]
   },
+  "F17E2799-A4A1-40DA-8386-268672CE2C04" : {
+    "objectMetadataList" : [
+      [
+        "F17E2799-A4A1-40DA-8386-268672CE2C04",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "F1FC5756-9EEF-4380-87F3-D67C9269E2A3" : {
     "objectMetadataList" : [
       [
@@ -1747,6 +1879,18 @@
     "objectMetadataList" : [
       [
         "F73D2E7E-4994-458F-9A5D-75D3C2271A73",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F74B10FD-BA19-4932-B94F-B7809C1D7BB5" : {
+    "objectMetadataList" : [
+      [
+        "F74B10FD-BA19-4932-B94F-B7809C1D7BB5",
         "Root"
       ],
       {
@@ -1819,6 +1963,14 @@
     "objectMetadataList" : [
       [
         "FACC2AC3-B4D3-419E-B80F-1E4E708B3EDC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FACC2AC3-B4D3-419E-B80F-1E4E708B3EDC",
         "Root",
         "Cube"
       ],
@@ -1828,14 +1980,6 @@
         "selectedAudioFilePrim" : {
           "string" : "\/Root\/_1bells_wav"
         }
-      },
-      [
-        "FACC2AC3-B4D3-419E-B80F-1E4E708B3EDC",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
