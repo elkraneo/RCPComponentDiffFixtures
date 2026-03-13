@@ -1,11 +1,18 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Grounding Shadow\/BASE.usda",
-    "Grounding Shadow\/None.usda",
-    "Grounding Shadow\/All.usda",
-    "Grounding Shadow\/BASE copy 1.usda",
-    "Grounding Shadow\/BASE copy.usda"
+    "Image Based Light\/BASE.usda",
+    "Image Based Light\/BASE copy.usda",
+    "Image Based Light\/Inherits Rotation.usda",
+    "Image Based Light\/Mode None.usda",
+    "Image Based Light\/Mode Single.usda",
+    "Image Based Light\/Mode Blend.usda",
+    "Image Based Light\/Environment Resource.usda",
+    "Image Based Light\/Mode Blend Second.usda",
+    "Image Based Light\/Mode Blend None.usda",
+    "Image Based Light\/Mode Blend First.usda",
+    "Image Based Light\/Mode Blend All.usda",
+    "Image Based Light\/Mode Blend All Custom Blend.usda"
   ],
   "recentIdentifiers" : {
     "39F577D8-4846-4EEE-BBAF-7803A64ED244" : [
@@ -217,5 +224,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Grounding Shadow\/BASE copy 1.usda"
+  "selectedSceneRelativePath" : "Image Based Light\/Mode Blend All Custom Blend.usda"
 }
