@@ -1,11 +1,9 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Image Based Light Receiver\/BASE.usda",
-    "Image Based Light Receiver\/IBL.usda",
-    "Image Based Light Receiver\/OtherEntityIBL.usda",
-    "Image Based Light Receiver\/InvalidTargetNoIBL.usda",
-    "Image Based Light Receiver\/RemoveIBLAfterAssign.usda"
+    "Virtual Environment Probe\/Mode Blend Two.usda",
+    "Virtual Environment Probe\/Mode Blend Two Intensity Exponent.usda",
+    "Virtual Environment Probe\/Mode Blend All Custom Blend.usda"
   ],
   "recentIdentifiers" : {
     "12462FA8-82A1-4C6D-80A4-2B987BFD3240" : [
@@ -244,5 +242,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Image Based Light Receiver\/RemoveIBLAfterAssign.usda"
+  "selectedSceneRelativePath" : "Virtual Environment Probe\/Mode Blend All Custom Blend.usda"
 }
