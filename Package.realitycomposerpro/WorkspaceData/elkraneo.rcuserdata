@@ -1,20 +1,16 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Image Based Light\/BASE.usda",
-    "Image Based Light\/BASE copy.usda",
-    "Image Based Light\/Inherits Rotation.usda",
-    "Image Based Light\/Mode None.usda",
-    "Image Based Light\/Mode Single.usda",
-    "Image Based Light\/Mode Blend.usda",
-    "Image Based Light\/Environment Resource.usda",
-    "Image Based Light\/Mode Blend Second.usda",
-    "Image Based Light\/Mode Blend None.usda",
-    "Image Based Light\/Mode Blend First.usda",
-    "Image Based Light\/Mode Blend All.usda",
-    "Image Based Light\/Mode Blend All Custom Blend.usda"
+    "Image Based Light Receiver\/BASE.usda",
+    "Image Based Light Receiver\/IBL.usda",
+    "Image Based Light Receiver\/OtherEntityIBL.usda",
+    "Image Based Light Receiver\/InvalidTargetNoIBL.usda",
+    "Image Based Light Receiver\/RemoveIBLAfterAssign.usda"
   ],
   "recentIdentifiers" : {
+    "12462FA8-82A1-4C6D-80A4-2B987BFD3240" : [
+
+    ],
     "39F577D8-4846-4EEE-BBAF-7803A64ED244" : [
 
     ],
@@ -98,6 +94,30 @@
           -0.15409462,
           0.18844138,
           0.3348598,
+          1
+        ]
+      }
+    ],
+    "656708C8-31B9-4375-A1A2-140D29D5CF58" : [
+      {
+        "date" : 795169016.710088,
+        "title" : "Untitled",
+        "transform" : [
+          0.9755399,
+          1.4136453e-10,
+          -0.21982232,
+          0,
+          -0.15294053,
+          0.7182878,
+          -0.67872816,
+          0,
+          0.1578957,
+          0.6957462,
+          0.70071846,
+          0,
+          0.4083656,
+          1.7994083,
+          1.8122681,
           1
         ]
       }
@@ -224,5 +244,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Image Based Light\/Mode Blend All Custom Blend.usda"
+  "selectedSceneRelativePath" : "Image Based Light Receiver\/RemoveIBLAfterAssign.usda"
 }

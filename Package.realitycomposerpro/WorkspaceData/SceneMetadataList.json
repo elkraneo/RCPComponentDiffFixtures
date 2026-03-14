@@ -11,6 +11,18 @@
       }
     ]
   },
+  "01F81D55-63BF-437B-9757-A93040BAFB7B" : {
+    "objectMetadataList" : [
+      [
+        "01F81D55-63BF-437B-9757-A93040BAFB7B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "02D5C9BE-650A-473F-A7B9-2490B9908EA6" : {
     "objectMetadataList" : [
       [
@@ -179,6 +191,18 @@
       }
     ]
   },
+  "12462FA8-82A1-4C6D-80A4-2B987BFD3240" : {
+    "objectMetadataList" : [
+      [
+        "12462FA8-82A1-4C6D-80A4-2B987BFD3240",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "12C5B277-DE59-47A8-AB34-A252C595CD28" : {
     "objectMetadataList" : [
       [
@@ -327,6 +351,18 @@
     "objectMetadataList" : [
       [
         "282C06DA-1F66-4D50-AAEA-08BD6E31BBDF",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2A0A2C15-719B-4EC1-BF24-930BD501B6DC" : {
+    "objectMetadataList" : [
+      [
+        "2A0A2C15-719B-4EC1-BF24-930BD501B6DC",
         "Root"
       ],
       {
@@ -495,6 +531,28 @@
     "objectMetadataList" : [
       [
         "4285F70F-1172-4A19-B231-1B5D5EB156A1",
+        "Root",
+        "ToyBiplane",
+        "geom",
+        "realistic",
+        "geo"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4285F70F-1172-4A19-B231-1B5D5EB156A1",
+        "Root",
+        "ToyBiplane",
+        "geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4285F70F-1172-4A19-B231-1B5D5EB156A1",
         "Root"
       ],
       {
@@ -520,28 +578,6 @@
         "realistic",
         "geo",
         "lod0"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4285F70F-1172-4A19-B231-1B5D5EB156A1",
-        "Root",
-        "ToyBiplane",
-        "geom"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4285F70F-1172-4A19-B231-1B5D5EB156A1",
-        "Root",
-        "ToyBiplane",
-        "geom",
-        "realistic",
-        "geo"
       ],
       {
         "isExpanded" : true,
@@ -829,6 +865,18 @@
     "objectMetadataList" : [
       [
         "6435EEF0-D968-43CF-A8E5-90D41900229E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "656708C8-31B9-4375-A1A2-140D29D5CF58" : {
+    "objectMetadataList" : [
+      [
+        "656708C8-31B9-4375-A1A2-140D29D5CF58",
         "Root"
       ],
       {
@@ -1418,7 +1466,7 @@
       [
         "B531D0A7-3C68-4842-BF87-F67B1D3C35C6",
         "Root",
-        "Cube"
+        "Cube_1"
       ],
       {
         "isExpanded" : true,
@@ -1435,7 +1483,7 @@
       [
         "B531D0A7-3C68-4842-BF87-F67B1D3C35C6",
         "Root",
-        "Cube_1"
+        "Cube"
       ],
       {
         "isExpanded" : true,
@@ -1447,6 +1495,18 @@
     "objectMetadataList" : [
       [
         "B54419EE-C8CE-4E46-977C-C1C78785E6F3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B55B67FA-C826-4A4B-97C6-9BB004D10294" : {
+    "objectMetadataList" : [
+      [
+        "B55B67FA-C826-4A4B-97C6-9BB004D10294",
         "Root"
       ],
       {
@@ -1963,6 +2023,14 @@
     "objectMetadataList" : [
       [
         "E69AABC9-AC37-4BE7-A6F7-FF539B558D82",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "E69AABC9-AC37-4BE7-A6F7-FF539B558D82",
         "Root",
         "Cube"
       ],
@@ -1972,14 +2040,6 @@
         "selectedAudioFilePrim" : {
           "string" : "\/Root\/_1bells_wav"
         }
-      },
-      [
-        "E69AABC9-AC37-4BE7-A6F7-FF539B558D82",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
